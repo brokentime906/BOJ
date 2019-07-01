@@ -16,7 +16,7 @@ void bfs(vector<vector<int>>&adj,int here) {
 	queue<int>q;
 	q.push(here);
 	vector<bool>visited(adj.size(), false);
-	while (!q.empty()) {
+	while ( !q.empty()) {
 		
 		int cur = q.front();
 		
